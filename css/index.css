@@ -24,3 +24,8 @@ body {
     stroke: #008B6F;
     stroke-width: 7px;
 }
+
+.multi-shape line {
+    stroke: black;
+    stroke-width: 5px;
+}
