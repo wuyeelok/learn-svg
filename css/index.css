@@ -33,4 +33,8 @@ body {
 .multi-shape text {
     font-size: 60px;
     text-anchor: middle;
+    font-family: 'FilmotypeMajor';
+    stroke: #000;
+    stroke-width: 3px;
+    fill: #F6F7F3;
 }
