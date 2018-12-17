@@ -29,3 +29,8 @@ body {
     stroke: black;
     stroke-width: 5px;
 }
+
+.multi-shape text {
+    font-size: 60px;
+    text-anchor: middle;
+}
