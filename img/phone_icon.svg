@@ -4,4 +4,5 @@
      version="1.1">
     <rect height="100" width="70" fill="white" stroke="#FF2626" stroke-width="10"
     x="5" y="5"/>
+    <circle cx="40" cy="105" r="3" fill="white"/>
 </svg>
