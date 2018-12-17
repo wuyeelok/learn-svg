@@ -1,5 +1,5 @@
 body {
-    background-color: aquamarine;
+    background-color: burlywood;
 }
 
 .gallery {
@@ -17,4 +17,10 @@ body {
     0% {transform: scale(1);}
     50% {transform: scale(0.5);}
     100% {transform: scale(1);}
+}
+
+.multi-shape circle {
+    fill: none;
+    stroke: #008B6F;
+    stroke-width: 7px;
 }
