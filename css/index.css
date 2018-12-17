@@ -38,3 +38,9 @@ body {
     stroke-width: 3px;
     fill: #F6F7F3;
 }
+
+.multi-shape polygon {
+    fill: #008B6F;
+    stroke: black;
+    stroke-width: 2px;
+}
