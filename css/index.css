@@ -1,5 +1,5 @@
 body {
-    background-color: aquamarine;
+    background-color: burlywood;
 }
 
 .gallery {
@@ -17,4 +17,30 @@ body {
     0% {transform: scale(1);}
     50% {transform: scale(0.5);}
     100% {transform: scale(1);}
+}
+
+.multi-shape circle {
+    fill: none;
+    stroke: #008B6F;
+    stroke-width: 7px;
+}
+
+.multi-shape line {
+    stroke: black;
+    stroke-width: 5px;
+}
+
+.multi-shape text {
+    font-size: 60px;
+    text-anchor: middle;
+    font-family: 'FilmotypeMajor';
+    stroke: #000;
+    stroke-width: 3px;
+    fill: #F6F7F3;
+}
+
+.multi-shape polygon {
+    fill: #008B6F;
+    stroke: black;
+    stroke-width: 2px;
 }
