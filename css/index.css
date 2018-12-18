@@ -3,8 +3,8 @@ body {
 }
 
 .gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    display: flex;
+    flex-flow: row wrap;
 }
 
 .iphone circle {
@@ -51,5 +51,6 @@ body {
 
 .multi-shape {
     height: auto;
+    min-width: 200px;
     width: 40vw;
 }
