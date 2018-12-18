@@ -58,3 +58,16 @@ body {
     min-width: 200px;
     width: 40vw;
 }
+
+.curve-line {
+    height: auto;
+    min-width: 50px;
+    width: 20vw;
+}
+
+.curve-line path {
+    fill: none;
+    stroke: rebeccapurple;
+    stroke-width: 4px;
+    stroke-linecap: round;
+}
