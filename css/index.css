@@ -5,13 +5,15 @@ body {
 .gallery {
     display: flex;
     flex-flow: row wrap;
+    align-items: center;
 }
 
 .gallery svg {
     margin-left: 4vw;
 }
 
-.iphone circle {
+.iphone circle,
+#iphone-icon circle {
     animation: grow 2s infinite;
     transform-origin: bottom;
 }
@@ -55,6 +57,44 @@ body {
 
 .multi-shape {
     height: auto;
-    min-width: 200px;
-    width: 40vw;
+    min-width: 100px;
+    width: 30vw;
+}
+
+.curve-line {
+    height: auto;
+    min-width: 50px;
+    width: 20vw;
+}
+
+.curve-line path {
+    fill: none;
+    stroke: rebeccapurple;
+    stroke-width: 4px;
+    stroke-linecap: round;
+}
+
+.defined-icon {
+    display: none;
+}
+
+#iphone-icon rect, #iphone-icon circle {
+    fill: white;
+}
+
+#iphone-icon rect {
+    stroke: #FF2626;
+    stroke-width: 10px;
+}
+
+.top-displayed-icon {
+    
+    width: 5vw;
+    
+}
+
+.displayed-icon {
+    height: auto;
+    width: 20vw;
+    min-width: 80px;
 }
