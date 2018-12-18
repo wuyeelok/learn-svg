@@ -7,6 +7,10 @@ body {
     flex-flow: row wrap;
 }
 
+.gallery svg {
+    margin-left: 4vw;
+}
+
 .iphone circle {
     animation: grow 2s infinite;
     transform-origin: bottom;
