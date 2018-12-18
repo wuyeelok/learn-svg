@@ -44,3 +44,9 @@ body {
     stroke: black;
     stroke-width: 2px;
 }
+
+.simile-face circle {
+    fill: none;
+    stroke: #660198;
+    stroke-width: 4px;
+}
