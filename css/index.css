@@ -11,7 +11,8 @@ body {
     margin-left: 4vw;
 }
 
-.iphone circle {
+.iphone circle,
+#iphone-icon circle {
     animation: grow 2s infinite;
     transform-origin: bottom;
 }
@@ -70,4 +71,17 @@ body {
     stroke: rebeccapurple;
     stroke-width: 4px;
     stroke-linecap: round;
+}
+
+.defined-icon {
+    display: none;
+}
+
+#iphone-icon rect, #iphone-icon circle {
+    fill: white;
+}
+
+#iphone-icon rect {
+    stroke: #FF2626;
+    stroke-width: 10px;
 }
