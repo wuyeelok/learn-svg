@@ -44,3 +44,8 @@ body {
     stroke: black;
     stroke-width: 2px;
 }
+
+polygon.small-tri  {
+    fill: #59BFC6;
+    stroke-width: 1px;
+}
