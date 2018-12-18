@@ -45,7 +45,6 @@ body {
     stroke-width: 2px;
 }
 
-polygon.small-tri  {
-    fill: #59BFC6;
+.small-tri-group polygon {
     stroke-width: 1px;
 }
