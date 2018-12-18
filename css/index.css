@@ -48,3 +48,8 @@ body {
 .small-tri-group polygon {
     stroke-width: 1px;
 }
+
+.multi-shape {
+    height: auto;
+    width: 40vw;
+}
