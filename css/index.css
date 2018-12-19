@@ -105,3 +105,8 @@ body {
     width: 20vw;
     min-width: 150px;
 }
+
+.my-path .grid-line {
+    stroke: green;
+    stroke-width: .4px;
+}
