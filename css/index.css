@@ -108,5 +108,11 @@ body {
 
 .my-path .grid-line-group {
     stroke: green;
-    stroke-width: .4px;
+    stroke-width: .3px;
+}
+
+.my-path .arrow-group {
+    stroke: blueviolet;
+    stroke-width: 1px;
+    fill: none;
 }
