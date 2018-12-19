@@ -98,3 +98,10 @@ body {
     width: 20vw;
     min-width: 80px;
 }
+
+.my-path {
+    border: green solid;
+    height: auto;
+    width: 20vw;
+    min-width: 150px;
+}
