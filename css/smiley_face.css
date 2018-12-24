@@ -1,10 +1,12 @@
-.lession-1 {
+.lession-1,
+.lession-2 {
     width: 30vw;
     height: auto;
     border: 1px solid green;
 }
 
-.lession-1 .grid-background {
+.lession-1 .grid-background,
+.lession-2 .grid-background {
     stroke: green;
     stroke-width: 0.2px;
 }
@@ -14,4 +16,8 @@
     stroke: green;
     stroke-width: 1px;
     fill: green;
+}
+
+.point-8-stroke-width {
+    stroke-width: .8px;
 }
