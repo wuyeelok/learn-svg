@@ -4,7 +4,13 @@
     border: 1px solid green;
 }
 
-.lession-1 path {
+.lession-1 .grid-background {
     stroke: green;
     stroke-width: 0.2px;
+}
+
+.lession-1 .arrow-1 {
+    stroke: green;
+    stroke-width: 1px;
+    fill: green;
 }
