@@ -9,7 +9,8 @@
     stroke-width: 0.2px;
 }
 
-.lession-1 .arrow-1 {
+.lession-1 .arrow-1,
+.lession-1 .arrow-2 {
     stroke: green;
     stroke-width: 1px;
     fill: green;
