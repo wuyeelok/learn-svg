@@ -21,3 +21,11 @@
 .point-8-stroke-width {
     stroke-width: .8px;
 }
+
+.small-font {
+    font-size: .1rem;
+}
+
+.big-font {
+    font-size: .4rem;
+}
