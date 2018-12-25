@@ -22,8 +22,13 @@
     stroke-width: .8px;
 }
 
+.small-font,
+.big-font {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .small-font {
-    font-size: .1rem;
+    font-size: .2rem;
 }
 
 .big-font {
