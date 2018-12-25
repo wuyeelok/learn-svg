@@ -41,3 +41,10 @@
     fill: yellow;
     opacity: .4;
 }
+
+.l2-ellipse ellipse {
+    stroke-width: 1px;
+    stroke: blueviolet;
+    fill: none;
+    opacity: .6;
+}
