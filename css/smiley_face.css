@@ -34,3 +34,10 @@
 .big-font {
     font-size: .4rem;
 }
+
+.l2-circle circle {
+    stroke-width: 1px;
+    stroke: maroon;
+    fill: yellow;
+    opacity: .4;
+}
