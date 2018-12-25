@@ -1,6 +1,7 @@
 .lession-1,
 .lession-2,
-.lession-3 {
+.lession-3,
+.target-1 {
     width: 31vw;
     height: auto;
     border: 1px solid green;
@@ -59,4 +60,18 @@
     stroke: orange;
     stroke-width: 1px;
     fill: none;
+}
+
+.l3-path path {
+    stroke: #660198;
+    stroke-width: 1px;
+    fill: none;
+}
+
+.lession-3 {
+    background-image: url("../css/1_1.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+
 }
