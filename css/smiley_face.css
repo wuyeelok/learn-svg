@@ -48,3 +48,15 @@
     fill: none;
     opacity: .6;
 }
+
+.l2-polygon polygon {
+    stroke: burlywood;
+    stroke-width: 1px;
+    fill: none;
+}
+
+.l2-polyline polyline {
+    stroke: orange;
+    stroke-width: 1px;
+    fill: none;
+}
