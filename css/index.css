@@ -112,6 +112,8 @@ svg:hover .my-shape{
     fill:#175282;
 }
 
-.green-eyes {
-    fill: green;
+
+.sad .mouth {
+    transform: rotate(180deg) scale(.5);
+    transform-origin: 340px 390px;
 }
