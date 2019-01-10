@@ -107,3 +107,11 @@ svg:hover .my-shape{
     fill:blue;
     transform: scale(0.9)
 }
+
+.blue-eyes .eye-color {
+    fill:#175282;
+}
+
+.green-eyes {
+    fill: green;
+}
