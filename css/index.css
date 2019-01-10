@@ -117,3 +117,21 @@ svg:hover .my-shape{
     transform: rotate(180deg) scale(.5);
     transform-origin: 340px 390px;
 }
+
+@keyframes moveEyes {
+    20% {
+        transform: translate(-18px, -20px);
+    }
+
+    40% {
+        transform: translate(0, 0);
+    }
+
+    65% {
+        transform: translate(18px, -20px);
+    }
+}
+
+.move-around .inner-eye-group {
+    animation: moveEyes 12s infinite;
+}
