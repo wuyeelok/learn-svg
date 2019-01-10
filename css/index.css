@@ -98,3 +98,12 @@ body {
     width: 20vw;
     min-width: 80px;
 }
+
+.my-shape {
+    transition: all 1.3s
+}
+
+svg:hover .my-shape{
+    fill:blue;
+    transform: scale(0.9)
+}
