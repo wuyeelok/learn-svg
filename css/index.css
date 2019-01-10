@@ -132,6 +132,59 @@ svg:hover .my-shape{
     }
 }
 
+
+
 .move-around .inner-eye-group {
     animation: moveEyes 12s infinite;
+}
+
+@keyframes left-whiskers {
+    20% {
+        transform: rotate(5deg);
+    }
+
+    60% {
+        transform: rotate(-5deg);
+    }
+}
+.move-around .left-whiskers {
+    animation: left-whiskers 3s infinite;
+    transform-origin: 320px 350px;
+}
+
+@keyframes right-whiskers {
+    5% {
+        transform: rotate(-2deg);
+    }
+
+    90% {
+        transform: rotate(7deg);
+    }
+}
+.move-around .right-whiskers {
+    animation: right-whiskers 3s infinite;
+    transform-origin: 330px 350px;
+}
+
+@keyframes move {
+
+    20% {
+        transform: rotateY(10deg) rotateX(10deg);
+    }
+
+    40% {
+        transform: rotateY(25deg) rotateX(10deg);
+    }
+
+    60% {
+        transform: rotateY(-10deg) rotateX(-10deg);
+    }
+}
+
+.move-around {
+    animation: move 8s infinite;
+}
+
+.svg-cat-container {
+    perspective: 1000px;
 }
