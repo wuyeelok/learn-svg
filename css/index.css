@@ -98,3 +98,93 @@ body {
     width: 20vw;
     min-width: 80px;
 }
+
+.my-shape {
+    transition: all 1.3s
+}
+
+svg:hover .my-shape{
+    fill:blue;
+    transform: scale(0.9)
+}
+
+.blue-eyes .eye-color {
+    fill:#175282;
+}
+
+
+.sad .mouth {
+    transform: rotate(180deg) scale(.5);
+    transform-origin: 340px 390px;
+}
+
+@keyframes moveEyes {
+    20% {
+        transform: translate(-18px, -20px);
+    }
+
+    40% {
+        transform: translate(0, 0);
+    }
+
+    65% {
+        transform: translate(18px, -20px);
+    }
+}
+
+
+
+.move-around .inner-eye-group {
+    animation: moveEyes 12s infinite;
+}
+
+@keyframes left-whiskers {
+    20% {
+        transform: rotate(5deg);
+    }
+
+    60% {
+        transform: rotate(-5deg);
+    }
+}
+.move-around .left-whiskers {
+    animation: left-whiskers 3s infinite;
+    transform-origin: 320px 350px;
+}
+
+@keyframes right-whiskers {
+    5% {
+        transform: rotate(-2deg);
+    }
+
+    90% {
+        transform: rotate(7deg);
+    }
+}
+.move-around .right-whiskers {
+    animation: right-whiskers 3s infinite;
+    transform-origin: 330px 350px;
+}
+
+@keyframes move {
+
+    20% {
+        transform: rotateY(10deg) rotateX(10deg);
+    }
+
+    40% {
+        transform: rotateY(25deg) rotateX(10deg);
+    }
+
+    60% {
+        transform: rotateY(-10deg) rotateX(-10deg);
+    }
+}
+
+.move-around {
+    animation: move 8s infinite;
+}
+
+.svg-cat-container {
+    perspective: 1000px;
+}
