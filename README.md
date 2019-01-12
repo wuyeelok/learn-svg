@@ -1,12 +1,9 @@
 # Learn SVG 
 
+Last Updated README on: *2019-JAN-12*
+
 ## Currently Following
 
-* [Code School: You, Me & SVG](https://app.pluralsight.com/library/courses/code-school-you-me-svg/table-of-contents)  
+[Youtube Playlist](https://www.youtube.com/watch?v=2IY-xTCFjiM&list=PLyrSJ7QS28q7gAnK1hacnoDkRzE9SQeHJ) by [Roberto Matthews](https://www.youtube.com/channel/UCuCSEj8vWEiyz1ZthraU-9g)
 
-
-Login: ```wuyeelok@gmail.com```
-
-Password: ```pluralsightXXXXXX```
-
-Free starts on: ```13-DEC-2018```
+Used *SVG Drawing Tools* : [SVG-edit](https://svg-edit.github.io/svgedit/releases/latest/editor/svg-editor.html)
