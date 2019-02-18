@@ -16,9 +16,9 @@ hamburger.addEventListener('mouseenter', _ => {
 */
 
 toggleMenu
-    .to(lineTwo, .125, {scaleX: 0, transformOrigin:"50% 50%"}, 0)
-    .to(lineOne, .125, {rotation: 45, transformOrigin: "50% 50%", y: 8}, .125)
-    .to(lineThree, .125, {rotation: -45, transformOrigin: "50% 50%", y: -8}, .125)
+    .to(lineTwo, .125, {scaleX: 0, transformOrigin:"50% 50%"})
+    .to(lineOne, .125, {rotation: 45, transformOrigin: "50% 50%", y: 8}, "cross")
+    .to(lineThree, .125, {rotation: -45, transformOrigin: "50% 50%", y: -8}, "cross")
 
 hamburger.addEventListener('click', _ => {
     toggleMenu.reversed() ? toggleMenu.play() : toggleMenu.reverse()
