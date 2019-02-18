@@ -7,6 +7,28 @@
 
     
     <title>SVG animations</title>
+    <style>
+      .hamburger:hover .line-one, 
+      .hamburger:hover .line-two,
+      .hamburger:hover .line-three {
+        transform-origin: 50% 50%;
+        animation: line-grow ease-out 500ms;
+      }
+
+      .hamburger:hover .line-two {
+        animation-delay: 75ms;
+      }
+
+      .hamburger:hover .line-two {
+        animation-delay: 150ms;
+      }
+
+      @keyframes line-grow {
+        0% {transform: scaleX(1)}
+        50% {transform: scaleX(1.5)}
+        100% {transform: scaleX(1)}
+      }
+    </style>
   </head>
     <body>
       <svg class="hamburger" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
