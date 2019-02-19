@@ -10,7 +10,7 @@ const tlm = new TimelineMax({});
 const toggleMenu = new TimelineMax({paused: true, reversed: true})
 
 
-hamburger.addEventListener('mouseenter', _ => {
+hamburger.addEventListener('mouseenter', () => {
     if(hamburger.classList.contains('js-x')) {
         return
     }
@@ -26,7 +26,7 @@ toggleMenu
     .to(lineOne, .25, {rotation: 45, ease: Power2.easeInOut}, "cross")
     .to(lineThree, .25, {rotation: -45, ease: Power2.easeInOut}, "cross")
 
-hamburger.addEventListener('click', _ => {
+hamburger.addEventListener('click', () => {
     hamburger.classList.toggle('js-x')
     toggleMenu.reversed() ? toggleMenu.play() : toggleMenu.reverse()
 })
