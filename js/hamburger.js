@@ -14,7 +14,7 @@ hamburger.addEventListener('mouseenter', () => {
     if(hamburger.classList.contains('js-x')) {
         return
     }
-    tlm.staggerTo(lines, 0.25, {scaleX: 1.5, repeat: 1, yoyo: true, ease: Power2.easeInOut, svgOrigin: "50 50"}, 0.125)
+    tlm.staggerTo(lines, 0.25, {scaleX: 1.5, repeat: 1, yoyo: true, ease: Power2.easeInOut, svgOrigin: "50 50", transformOrigin: "50% 50%"}, 0.125)
 })
 
 
