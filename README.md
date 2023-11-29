@@ -2,7 +2,7 @@
 
 ## Currently Following
 
-* [Code School: You, Me & SVG](https://app.pluralsight.com/library/courses/code-school-you-me-svg/table-of-contents)  
+* [Pluralsight: You, Me & SVG](https://app.pluralsight.com/library/courses/code-school-you-me-svg/table-of-contents)  
 
 
 Login: ```wuyeelok@gmail.com```
